@@ -1,11 +1,9 @@
 package com.example.musicbackend.repository;
 
-import com.example.musicbackend.entity.Song;
+import com.example.musicbackend.entity.Playlist;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface SongRepository extends JpaRepository<Song, Long> {
-
-
+public interface PlaylistRepository extends JpaRepository<Playlist, Integer> {
 }
