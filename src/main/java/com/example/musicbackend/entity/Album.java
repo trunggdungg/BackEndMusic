@@ -26,6 +26,7 @@ public class Album {
     @JoinColumn(name = "artist_id")
     Artist artist;
 
+    String slug;
     String coverImageUrl;
     String description;
     Integer totalSongs;

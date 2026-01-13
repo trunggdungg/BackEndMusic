@@ -21,6 +21,7 @@ public class Playlist {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     Integer playlistId;
     String name;
+    String slug;
     String description;
 
     @ManyToOne

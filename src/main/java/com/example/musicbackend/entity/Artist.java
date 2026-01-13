@@ -21,6 +21,7 @@ public class Artist {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     Integer artistId;
     String name;
+    String slug;
     String bio;
     String country;
     String photoUrl;

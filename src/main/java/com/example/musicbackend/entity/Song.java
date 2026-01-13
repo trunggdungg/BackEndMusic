@@ -32,10 +32,14 @@ public class Song {
     @JoinColumn(name = "album_id")
     Album album;
 
+    String slug;
     Integer duration; // duration in seconds
     String fileUrl;
     String coverImageUrl;
     LocalDateTime releaseDate;
+    /// dạng text
+    @Lob
+    @Column(columnDefinition = "TEXT")
     String lyrics;
     Integer playCount;
     Integer downloadCount;

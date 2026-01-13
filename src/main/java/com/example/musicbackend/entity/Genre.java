@@ -4,6 +4,8 @@ import jakarta.persistence.*;
 import lombok.*;
 import lombok.experimental.FieldDefaults;
 
+import java.time.LocalDateTime;
+
 @Getter
 @Setter
 @AllArgsConstructor
@@ -19,6 +21,9 @@ public class Genre {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     Integer genreId;
     String name;
+    String slug;
     String description;
     String iconUrl;
+
+    LocalDateTime createdAt;
 }
