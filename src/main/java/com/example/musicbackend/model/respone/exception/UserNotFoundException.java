@@ -1,4 +1,4 @@
-package com.example.musicbackend.model.respone;
+package com.example.musicbackend.model.respone.exception;
 
 public class UserNotFoundException extends RuntimeException {
     public UserNotFoundException(Integer id) {

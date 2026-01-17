@@ -16,7 +16,7 @@ import java.util.List;
 
 @RestController
 @RequiredArgsConstructor
-@RequestMapping("/api/songs")
+@RequestMapping("/api/songs") 
 public class SongApi {
 
     private final SongService songService;

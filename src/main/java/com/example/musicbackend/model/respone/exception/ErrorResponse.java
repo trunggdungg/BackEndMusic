@@ -1,4 +1,4 @@
-package com.example.musicbackend.model.respone;
+package com.example.musicbackend.model.respone.exception;
 
 import lombok.Builder;
 import lombok.Data;

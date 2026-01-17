@@ -1,15 +1,13 @@
 package com.example.musicbackend.service;
 
 import com.example.musicbackend.entity.Favorite;
-import com.example.musicbackend.model.respone.UserNotFoundException;
+import com.example.musicbackend.model.respone.exception.UserNotFoundException;
 import com.example.musicbackend.repository.FavoriteRepository;
 import com.example.musicbackend.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Sort;
-import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
-import org.springframework.web.server.ResponseStatusException;
 
 import java.util.List;
 

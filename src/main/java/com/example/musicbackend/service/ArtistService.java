@@ -1,7 +1,6 @@
 package com.example.musicbackend.service;
 
 import com.example.musicbackend.entity.Artist;
-import com.example.musicbackend.entity.Song;
 import com.example.musicbackend.repository.ArtistRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
