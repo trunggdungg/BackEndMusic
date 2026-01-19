@@ -13,7 +13,7 @@ public class JwtUtil {
     // SECRET KEY - NÊN LƯU VÀO application.properties
     private final String SECRET_KEY = "your-very-secure-secret-key-at-least-256-bits-long-for-hs256-algorithm";
     // Token hết hạn sau 24 giờ
-    private final long EXPIRATION_TIME = 86400000; // 24h = 24 * 60 * 60 * 1000
+    private final long EXPIRATION_TIME = 24* 60 * 60 * 1000; // 24h = 24 * 60 * 60 * 1000
 
     private SecretKey getSigningKey() {
         return Keys.hmacShaKeyFor(SECRET_KEY.getBytes());

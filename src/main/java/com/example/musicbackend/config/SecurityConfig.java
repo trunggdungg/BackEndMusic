@@ -29,6 +29,7 @@ public class SecurityConfig {
                         .requestMatchers("/api/auth/**").permitAll()
                         .requestMatchers("/api/songs/**").permitAll()
                         .requestMatchers("/api/artists/**").permitAll()
+                        .requestMatchers("/api/favorites/**").permitAll()
                         .requestMatchers("/").permitAll()
 
                         // YÊU CẦU token cho các API khác
